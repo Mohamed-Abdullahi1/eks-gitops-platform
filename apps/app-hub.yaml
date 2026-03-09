@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: the-app-hub
-          image: moabdullahi/the-app-hub:22e0324
+          image: nginx:latest
           ports:
             - containerPort: 3000
 
